@@ -3,14 +3,19 @@
     grid-template-columns: repeat(3, 1fr);
     padding: 15px;
     grid-gap: 15px;
+    
 }
 .country{
     border: 1px solid sandybrown;
     border-radius: 5px;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 25px;
+    
 }
 
 .country img{
-    
+    border-image: fill;
 }
 
 .country h2{
