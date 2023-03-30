@@ -14,11 +14,51 @@
     
 }
 
+.country:hover{
+    background-color: lightcoral;
+    rotate: 45deg;
+    transition-duration: 10s;
+    /* transform: scaleX(-1); */
+    transition-timing-function: 1s;
+    -o-transform-origin: 0%;
+}
+
 .country img{
-    border-image: fill;
+    /* border-image: fill; */
+    width: 75%;
 }
 
 .country h2{
     text-align: center;
 }
 
+/* responsive for small devices */
+
+@media screen and (max-width:576px){
+    .countries{
+        background-color: yellow;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    
+}
+
+/* responsive for medium devices */
+
+@media screen and (min-width:577px) and (max-width:992px) {
+    .countries{
+        background-color: lightcoral;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+/* responsive for large devices */
+
+@media screen and (min-width:993px) and (max-width:1200px) {
+    .countries{
+        background-color: lightseagreen;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
