@@ -35,6 +35,12 @@
 /* responsive for small devices */
 
 @media screen and (max-width:576px){
+    .header-info{
+        background-color: lightgray;
+        font-size: 80px;
+        
+        
+    }
     .countries{
         background-color: yellow;
         display: grid;
